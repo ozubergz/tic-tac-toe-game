@@ -1,0 +1,189 @@
+body {
+  background: #232C31;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.container {
+  background: #4F5353;
+  width: 540px;
+  height: 600px;
+  padding: 25px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+
+#first-menu {
+/*   display: none; */
+  text-align: center;
+  margin-top: 200px;
+}
+
+#first-menu button {
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#first-menu button:hover {
+  background: black;
+  color: white;
+}
+
+.singlePlay-btn {
+  margin-right: 30px;
+}
+
+#choose-menu {
+  display: none;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#choose-menu button {
+  font-size: 20px;
+  width: 80px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#choose-menu button:hover {
+  background: black;
+  color: white;
+}
+
+.XBtn{
+  margin-right: 20px;
+}
+
+.back-btn {
+  font-size: 20px;
+  margin-top: 35px;
+  margin-right: 120px;
+  display: block;
+}
+
+.back-btn:hover {
+  cursor: pointer;
+}
+
+#board-btn {
+  display: none;
+  text-align: right;
+}
+
+#reset-all {
+  border-style: none;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: #FFC300;
+  color: #C70039;
+}
+
+#reset-all:hover {
+  background: #C70039;
+  color: #FFC300;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:focus{
+  outline: 0;
+}
+
+#game-board{
+  display: none;
+}
+
+#score-board {
+  display: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 21px;
+}
+
+.scores1 {
+  display: inline-block;
+  margin-left: -8px;
+}
+
+.scores2 {
+  display: inline-block;
+  margin-left: 120px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  grid-template-rows: repeat(3, 180px);
+  margin: 0 auto;
+}
+
+.square {
+  font-size: 150px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+#gameOver {
+  display: none;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 53%;
+  background: #FFC300;
+  border-radius: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  padding: 1px;
+  margin-bottom: 2px;
+  margin-right: 3px;
+}
+
+#popup-menu {
+  display: none;
+  position: relative;
+  bottom: 60%;
+  left: 20%;
+  background: white;
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #FFC300;
+}
+
+.popup-btns {
+  border-style: none;
+  padding: 5px;
+  width: 70px;
+  margin: 10px;
+  border-radius: 10px;
+  background: #C70039;
+  color: white;
+}
+
+.popup-btns:hover {
+  background: black;
+}
